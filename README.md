@@ -2,6 +2,9 @@
 Differential expression analysis (e.g., DESeq2, limma) is powerful for identifying molecules whose expression changes across conditions. However, it often yields long gene lists that can be difficult to interpret biologically. Pathway analysis methods such as over-representation analysis (ORA) and Gene Set Enrichment Analysis (GSEA) summarize results by testing overlap between differentially expressed genes and predefined signatures, but typically do not explicitly incorporate known molecular interactions among the genes. Protein–protein interaction (PPI) network analysis helps translate a list into biology by placing differentially expressed genes into the context of known and predicted molecular interactions. This context can reveal coordinated pathways and protein complexes, highlight modules of functionally related genes, and help prioritize candidate “key” (hub) proteins that connect multiple altered processes—supporting hypothesis generation and targeted follow-up.
 In this hands-on workshop, participants will use Cytoscape and the STRING database (via stringApp) to build and analyze a PPI network from a DESeq2-derived list of differentially expressed genes from Alzheimer’s disease fusiform gyrus data.
 
+### Video Tutorial
+https://youtu.be/QOrRu7scvG8?si=_0z23QC6FrS2qOqT
+
 ### Requirements:
 Download and install Cytoscape https://cytoscape.org/download.html
 
